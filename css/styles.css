@@ -1,0 +1,142 @@
+/* general styles */
+
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+
+	/* padded section */
+
+	.pad-section {
+		padding: 50px 0;
+	}
+
+	.pad-section img {
+		width: 100%;
+	}
+
+	/* vertical-centered text */
+
+	.text-vcenter {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	.text-vcenter h1 {
+		font-size: 4.5em;
+		font-weight: 700;
+		margin: 0;
+		padding: 0;
+	}
+
+	/* additional sections */
+
+	#home {
+		background: url(../img/fruits2.jpg) no-repeat center center fixed;
+		display: table;
+		height: 100%;
+		position: relative;
+		width: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#about {
+
+	}
+
+	#services {
+		background-color: #FEC86D;
+		color: #ffffff;
+	}
+
+	#services .glyphicon {
+		border: 2px solid #FFFFFF;
+		border-radius: 50%;
+		display: inline-block;
+		font-size: 60px;
+		height: 140px;
+		line-height: 140px;
+		text-align: center;
+		vertical-align: middle;
+		width: 140px;
+	}
+
+	#information {
+		background: url(../img/fruits5.jpg) no-repeat center center fixed;
+		display: table;
+		height: 800px;
+		position: relative;
+		width: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+#information-kraj {
+		background: url(../img/fruits4.jpg) no-repeat center center fixed;
+		display: table;
+		height: 800px;
+		position: relative;
+		width: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#information .panel {
+		opacity: 0.5;
+	}
+	#information-kraj .panel {
+		opacity: 0.5;
+	}
+
+	#google_map {
+		height: 500px;
+	}
+
+	footer {
+		padding: 20px 0;
+	}
+
+	footer .glyphicon {
+		color: #333333;
+		font-size: 60px;
+	}
+
+	footer .glyphicon:hover {
+		color: #306d9f;
+	} 
+	
+	.navbar-default{
+    background-color:#FEC86D ;
+    border-color: #C94A3E;
+    border-top: none;
+    border-radius: 0;
+}
+	.navbar-default .navbar-nav > li > a:hover{
+	border-bottom: 2px solid #C94A3E;	
+    color:#C94A3E;
+    
+}
+	
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #ffffff;
+}
+.carousel-indicators li {
+    border-color: #ffffff;
+}
+.carousel-indicators li.active {
+    background-color: #ffffff;
+}
+.top{
+	background-color: #C94A3E;
+}
+.druga{
+	background:url(../img/fruits6.jpg);
+}
